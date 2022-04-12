@@ -1,0 +1,5 @@
+#!/bin/bash
+#PBS -l walltime=00:08:00,nodes=5:ppn=8,mem=256MB
+
+cd $PBS_O_WORKDIR
+./baselineAndEfficiency 3000 2000 8 10
